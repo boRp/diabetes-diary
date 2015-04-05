@@ -1,39 +1,39 @@
 # ToDos
 
-* [] user settings 
+* [ ] user settings 
 
-* [] language switch
+* [ ] language switch
 
-* [] editing of existing data
+* [ ] editing of existing data
 
-* [] CSV import
+* [ ] CSV import
   - paste import, drop database before awith a warning
   - check persitancy of local storage (on re-install apk)
 
-* [] Small installer/usage documentation
+* [ ] Small installer/usage documentation
 
-* [] custom date interval for export data
+* [ ] custom date interval for export data
 
-* [] time based notifications (background process)
+* [ ] time based notifications (background process)
 
-* [] tagging of checkpoints (besides comments)
+* [ ] tagging of checkpoints (besides comments)
 
-* [] iOS testing
+* [ ] iOS testing
 
 
 
 ## features for the future
 
-* [] desktop widget with quick info
+* [ ] desktop widget with quick info
 
-* [] new/better graphs
+* [ ] new/better graphs
 
-* [] Encrypted data storage!
+* [ ] Encrypted data storage!
 
-* [] Encrypted export
+* [ ] Encrypted export
 
 
 
 
 # Known Bugs
-* [] "change date" will only allow minute choice after first entry
+* [ ] "change date" will only allow minute choice after first entry

@@ -2,9 +2,9 @@ App.info({
     id: 'de.wbcrew.android.diadia',
     name: 'DiabetesDiary',
     description: 'small tool to note your blood sugar level etc',
-    author: 'rieL',
-    email: 'riel@wbcrew.de',
-    website: 'https://android.wbcrew.de'
+    author: 'psturm',
+    email: 'diadia@wbcrew.de',
+    website: 'https://github.com/boRp/diabetes-diary'
 });
 
 App.icons({
