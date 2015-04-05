@@ -1,0 +1,16 @@
+{
+  "HEADER": {
+    "TITLE": "DiaDia",
+    "ITEM": {
+      "CHECKPOINT": "Checkpoint",
+      "DIAGRAM": "Diagram",
+      "LIST": "List",
+      "EXPORT": "Export"
+    }
+  },
+  "GLOBAL": {
+    "BLOOD_SUGAR": "Blood sugar",
+    "FOOD": "Food",
+    "DOSAGE": "Dosage"
+  }
+}

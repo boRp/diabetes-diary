@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "clockpicker": {}
+    },
+    "packages": {
+      "clockpicker": {
+        "git": "https://github.com/AndrasPH/meteor-clockpicker",
+        "tag": "v0.0.2",
+        "commit": "ca94609d3e65de895992897c42e54e83afabc635"
+      }
+    }
+  }
+}

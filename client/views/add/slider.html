@@ -1,0 +1,32 @@
+<template name="slider">
+
+    <div class="form-group form-toggle {{ collapsed }}">
+
+        <div class="col-xs-12 form-toggle-header">
+
+            <div class="form-toggle-header-area">
+                <div id="{{ name }}Value" class="form-slider-value"></div>
+                <div class="togglebutton">
+                    <label>
+                      <input type="checkbox" class="sliderRangeToggle">
+                      {{_ 'ADD.FORM.MISC.HIGH_TOGGLE' }}
+                      </label>
+                </div>
+            </div>
+
+            <div class="form-label">
+                <i class="form-toggle-btn mdi-navigation-expand-less"></i>
+                {{_ label }}
+            </div>
+
+        </div>
+
+
+        <div class="col-xs-12 form-toggle-area">
+            <div id="{{ name }}" class="slider shor"></div>
+        </div>
+
+    </div>
+
+
+</template>

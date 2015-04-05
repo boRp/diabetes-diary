@@ -1,0 +1,30 @@
+{
+  "ADD": {
+    "TITLE": "New checkpoint",
+    "FORM": {
+      "MISC": {
+        "HIGH_TOGGLE": "High"
+      },
+
+      "DATE": {
+        "TITLE": "Date",
+        "ELEMENTS": {
+          "TIME": {
+            "PLACEHOLDER": "time"
+          },
+          "DATE": {
+            "PLACEHOLDER": "date"
+          }
+        }
+      },
+      "COMMENT": {
+        "TITLE": "Comment",
+        "DESCRIPTION": "Additional comments to this data point"
+      },
+
+      "SAVE": {
+        "LABEL": "save"
+      }
+    }
+  }
+}

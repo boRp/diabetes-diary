@@ -1,0 +1,13 @@
+{
+  "EXPORT": {
+    "TITLE": "Data export",
+    "STATISTICS": {
+      "TITLE": "Measurement data",
+      "COUNT": "item count"
+    },
+    "DESCRIPTION": "Here you can export your data as CSV",
+    "BUTTON": {
+      "LABEL": "export data"
+    }
+  }
+}

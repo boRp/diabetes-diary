@@ -1,0 +1,48 @@
+<template name="export">
+    <div id="export">
+
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12">
+                    <h2 class="page-header">
+                      {{_ 'EXPORT.TITLE'}}
+                    </h2>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                          {{_ 'EXPORT.STATISTICS.TITLE'}}
+                        </div>
+                        <div class="panel-body">
+                          {{_ 'EXPORT.STATISTICS.COUNT'}}:
+                          {{ count }}
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row" style="margin-top: 40px;">
+                <div class="col-xs-12" style="text-align: center;">
+                  {{_ 'EXPORT.DESCRIPTION'}}
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-xs-12" style="text-align: center;">
+                    <button id="intent-test" type="button" class="btn btn-primary btn-raised">
+                      {{_ 'EXPORT.BUTTON.LABEL'}}
+                    </button>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</template>

@@ -1,0 +1,13 @@
+{
+  "EXPORT": {
+    "TITLE": "Export",
+    "STATISTICS": {
+      "TITLE": "Statistik",
+      "COUNT": "Anzahl"
+    },
+    "DESCRIPTION": "Hier kann mand ie Daten als CSV exportieren",
+    "BUTTON": {
+      "LABEL": "exportieren"
+    }
+  }
+}

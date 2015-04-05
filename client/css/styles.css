@@ -1,0 +1,98 @@
+body {
+}
+
+.nav-tabs {
+    /*font-size: 12px;*/
+}
+
+.page-header {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+small { color: #999; }
+
+.btn { color: #999; }
+
+
+@media (max-width: 767px) {
+    body {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+.add-box {
+    position: fixed;
+    z-index: 1100;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+
+/** Form for adding new values *******************************************/
+
+.form-toggle.collapsed .form-toggle-header-area,
+.form-toggle.collapsed .form-toggle-area {
+    display: none;
+}
+
+.form-toggle-header {
+    cursor: pointer;
+    min-height: 35px;
+}
+.form-toggle-header-area {
+    float: right;
+    overflow: hidden;
+}
+.form-toggle-header-area > div {
+    float: left;
+}
+
+.form-toggle-btn {
+    font-size: 20px;
+}
+
+.form-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+.form-toggle.collapsed .form-label { color: #888; }
+
+.form-slider-value {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+.clockpicker-popover .popover-title {
+    display: none;
+}
+
+
+
+/** List of checkpoint values ****************************************/
+
+.list-group .list-group-separator:before { width: 100% !important; }
+
+
+/** language switch ****/
+.lang-switch {
+  padding: 5px;
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+
+
+/** InfoBox for browsers (non-cordova) ***********************************************/
+
+.info-box {
+    position: fixed;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background: #fff;
+}

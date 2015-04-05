@@ -1,0 +1,77 @@
+<template name="add">
+
+    <div class="container">
+
+
+        <form class="form-horizontal">
+            <fieldset>
+                <legend>{{_ 'ADD.TITLE'}}</legend>
+
+                {{#each sliderFormGroups }}
+                    {{> slider }}
+                {{/each }}
+
+
+                <div class="form-group form-toggle collapsed">
+                    <div class="col-xs-12 form-toggle-header">
+
+                        <div class="form-toggle-header-area"></div>
+
+                        <div class="form-label">
+                            <i class="form-toggle-btn mdi-navigation-expand-less"></i>
+                            {{_ 'ADD.FORM.DATE.TITLE'}}
+                        </div>
+
+                    </div>
+
+                    <div class="col-xs-12">
+
+                    </div>
+
+                    <div class="col-xs-6 form-toggle-area">
+                        <!--<label for="time">Uhrzeit</label>-->
+                        <div class="input-group clockpicker" data-placement="top" data-align="top" data-autoclose="true">
+                            <input id="time" type="text" class="form-control" value="12:30"
+                                   placeholder="{{_ 'ADD.FORM.DATE. ELEMENTS.TIME.PLACEHOLDER'}}"
+                                   onfocus="blur();" />
+                        </div>
+                    </div>
+                    <div class="col-xs-6 form-toggle-area">
+                        <!--<label for="date">Tag</label>-->
+                        <input id="date" type="text" class="form-control datepicker" value="{{ currentDateFormatted }}"
+                               placeholder="{{_ 'ADD.FORM.DATE. ELEMENTS.DATE.PLACEHOLDER'}}"
+                               onfocus="blur();">
+                    </div>
+
+                </div>
+
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <div class="form-label">{{_ 'ADD.FORM.COMMENT.TITLE'}}</div>
+                    </div>
+                    <div class="col-xs-12">
+                        <textarea id="comment" class="form-control" rows="3"></textarea>
+                        <span class="help-block">{{_ 'ADD.FORM.COMMENT.DESCRIPTION'}}</span>
+                    </div>
+                </div>
+
+
+
+
+                <div class="form-group">
+                    <div class="col-xs-12">
+                        <!--<button class="btn btn-default">Abbrechen</button>-->
+                        <button id="add-save-btn" type="submit" class="btn btn-primary">
+                          {{_ 'ADD.FORM.SAVE.LABEL'}}
+                        </button>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+
+
+    </div>
+
+</template>

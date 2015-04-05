@@ -1,0 +1,14 @@
+<template name="layout">
+
+    {{#unless isCordova }}
+        {{> infoBox }}
+    {{/unless }}
+
+
+    {{> header }}
+
+    {{> yield }}
+
+    {{> footer }}
+
+</template>

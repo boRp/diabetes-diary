@@ -1,0 +1,26 @@
+<template name="graph">
+
+    {{> diagram }}
+
+    {{> addButton }}
+
+
+    <div style="margin: 200px 10px 40px 10px;">
+        <hr>
+        <h4>debug:</h4>
+        <button class="btn btn-danger btn-sm"
+                onclick="if(confirm('Alle Daten löschen?')) { CheckpointsHelper.removeAll(); }">
+            ALLES löschen
+        </button>
+
+    </div>
+
+    <div>
+        <button id="debug-test-data" class="btn btn-sm btn-info">
+            Testdaten generieren
+        </button>
+    </div>
+
+
+
+</template>

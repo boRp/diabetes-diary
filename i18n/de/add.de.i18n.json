@@ -1,0 +1,30 @@
+{
+  "ADD": {
+    "TITLE": "Neuer Messpunkt",
+    "FORM": {
+      "MISC": {
+        "HIGH_TOGGLE": "Hoch"
+      },
+
+      "DATE": {
+        "TITLE": "Datum",
+        "ELEMENTS": {
+          "TIME": {
+            "PLACEHOLDER": "Uhrzeit"
+          },
+          "DATE": {
+            "PLACEHOLDER": "Datum"
+          }
+        }
+      },
+      "COMMENT": {
+        "TITLE": "Kommentar",
+        "DESCRIPTION": "Zusätzlihe Kommentare zum Messpunkt"
+      },
+
+      "SAVE": {
+        "LABEL": "speichern"
+      }
+    }
+  }
+}

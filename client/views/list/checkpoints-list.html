@@ -1,0 +1,60 @@
+<template name="checkpointsList">
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-12">
+
+                <div style="float: right;">
+                    <button id="toggleListView" class="btn btn-default btn-xs" title="toggle view: html/csv"
+                            style="margin: 0; padding: 5px;">
+                        {{#if isListStyleCsv }}
+                            <i class="mdi-action-view-list"></i>
+                        {{ else }}
+                            <i class="mdi-action-view-headline"></i>
+                        {{/if }}
+                        <div class="ripple-wrapper"></div>
+                    </button>
+                </div>
+
+                <h2 class="page-header">
+                  {{_ 'LIST.TITLE'}}
+                </h2>
+            </div>
+        </div>
+
+
+        <div class="row">
+            <div class="col-md-12">
+
+                {{#if isListStyleCsv }}
+
+                    <strong>{{ checkpointCsvHeader }}</strong><br />
+                    {{#each checkpoints }}
+                        {{> checkpointCsv }}<br/>
+                    {{ else }}
+                      {{_ 'LIST.EMPTY'}}
+                    {{/each }}
+
+                {{ else }}
+
+                    <div class="list-group">
+                    {{#each checkpoints }}
+                        {{> checkpoint }}
+                    {{ else }}
+                        <div style="text-align: center; margin-top: 50px;">
+                          {{_ 'LIST.EMPTY'}}
+                        </div>
+                    {{/each }}
+                    </div>
+
+                {{/if }}
+
+            </div>
+        </div>
+
+    </div>
+
+    {{> addButton }}
+
+</template>

@@ -1,0 +1,16 @@
+@import "../../../.data/bower_components/bootstrap-material-design/less/material-wfont.less";
+
+
+@primary: #D32F2F;
+@secondary: #EF9A9A;
+
+// meteor issue: https://github.com/FezVrasta/bootstrap-material-design/issues/332
+.togglebutton label input[type=checkbox]:first-child:checked + .toggle:after {
+  background-color: @primary !important;
+}
+.togglebutton label input[type=checkbox]:first-child:checked + .toggle {
+  background-color: @secondary !important;
+}
+
+
+

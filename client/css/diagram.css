@@ -1,0 +1,32 @@
+body {
+    font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+/*.x.axis path {*/
+    /*display: none;*/
+/*}*/
+
+.line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 1.5px;
+}
+
+
+.background-rectangle {
+    fill: url(#gradient-rectangle);
+    opacity: 0.25;
+}
+
+.brush .extent {
+    stroke: #fff;
+    fill-opacity: .125;
+    shape-rendering: crispEdges;
+}

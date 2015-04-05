@@ -1,0 +1,53 @@
+<template name="checkpoint">
+
+    <div class="list-group-item">
+        <!--<div class="row-action-primary">-->
+            <!--<i class="mdi-action-invert-colors"></i>-->
+        <!--</div>-->
+        <div class="row-content">
+            <div class="least-content">
+                <i class="mdi-navigation-more-vert"></i>
+            </div>
+
+            <h4 class="list-group-item-heading">
+                {{ dateLocal }}
+            </h4>
+            <p class="list-group-item-text">
+
+                {{#if measurement.bloodSugar }}
+                    <span>
+                        {{_ 'GLOBAL.BLOOD_SUGAR'}}:
+                        {{ measurement.bloodSugar.value }} {{ measurement.bloodSugar.unit }};
+                    </span>
+                {{/if }}
+
+                {{#if measurement.food }}
+                    <span>
+                      {{_ 'GLOBAL.FOOD'}}:
+                      {{ measurement.food.value }} {{ measurement.food.unit }};
+                    </span>
+                {{/if }}
+
+                {{#if measurement.dosage }}
+                    <span>
+                      {{_ 'GLOBAL.BLOOD_DOSAGE'}}: 
+                      {{ measurement.dosage.value }} {{ measurement.dosage.unit }};
+                    </span>
+                {{/if }}
+
+                {{#if comment }}
+                    <div>
+                        Kommentar: {{ comment }};
+                    </div>
+                {{/if }}
+
+
+            </p>
+
+        </div>
+    </div>
+    <div class="list-group-separator"></div>
+
+
+
+</template>

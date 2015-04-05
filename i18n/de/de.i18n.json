@@ -1,0 +1,16 @@
+{
+  "HEADER": {
+    "TITLE": "DiaDia",
+    "ITEM": {
+      "CHECKPOINT": "Messpunkt",
+      "DIAGRAM": "Diagramm",
+      "LIST": "Liste",
+      "EXPORT": "Export"
+    }
+  },
+  "GLOBAL": {
+    "BLOOD_SUGAR": "Blutzucker",
+    "FOOD": "Essen",
+    "DOSAGE": "Dosis"
+  }
+}
