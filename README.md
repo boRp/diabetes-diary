@@ -20,7 +20,6 @@ Health data is sensitive and important! As a diabetes patient, you should keep t
 
 This app is heavily under development. Neither owner nor contributors are responsible for actions an individual chooses to take with the code published. This includes (but is not limited to) any effects the app will have on the device it is installed on, choices based on the data entered into the app or any other action.
 
-None of us is a legal expert - we're just experimenting with an app.
 
 
 ## About this App
@@ -34,11 +33,11 @@ Please refer to the [to-do-list](TODOS.md) for features not yet included in the 
 
 ### Demo
 
-Find a running demo here: diadia.meteor.com
+Find a running demo here: [diadia.meteor.com](https://diadia.meteor.com)
 
-The demo is running in the browser and is also a "native" mobile app. For example, the android version can be downloaded here: <INSERT-URL>
+The demo is running in the browser and is also a "native" mobile app. For example, the android version can be downloaded [here](https://github.com/boRp/diabetes-diary/blob/master/.tmp/app/unaligned.apk).
 
-:info: You need to allow the installation of "untrusted apps on your android device <INSERT_MORE_INFO>
+You need to allow the installation of "untrusted apps" on your android device.
 
 
 
@@ -74,14 +73,14 @@ For more specific technical details, please see [technical documentation](TECHNI
 
 ### build
 
-> This has only been tested for android yet!
+This has only been tested for android!
 
 
 To build the app:
 
 `meteor build /tmp/diadia/ --server diadia.meteor.com:80 --debug`
 
-> The debug flag seems to be needed to install the apk on the phone without going through the app store
+The debug flag seems to be needed to install the apk on the phone without going through the app store
 
 
 Afterwards, you'll find the compiled apk within `/tmp/diadia/<INSERT_PATH>`
@@ -95,4 +94,4 @@ More information on building mobile apps for android and iOS: http://docs.meteor
 
 ## License
 
-MIT
+[MIT](LICENSE.md)
