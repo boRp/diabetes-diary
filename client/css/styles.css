@@ -68,7 +68,12 @@ small { color: #999; }
 
 
 .clockpicker-popover .popover-title {
-    display: none;
+    /*display: none;*/
+}
+.clockpicker-popover .popover-title > span {
+    float: none !important;
+    display: inline;
+    margin-left: 0;
 }
 
 

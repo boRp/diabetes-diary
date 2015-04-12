@@ -3,7 +3,12 @@ Template.add.rendered = function () {
 
     $.material.init();
 
-    $('.clockpicker').clockpicker();
+    $('.clockpicker').clockpicker({
+        placement: "top",
+        align: "top",
+        autoclose: "true"
+    });
+
     $('.datepicker').datepicker({
         format: "dd.mm.yyyy",
         weekStart: 1,
