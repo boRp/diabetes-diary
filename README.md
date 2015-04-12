@@ -3,20 +3,20 @@
 A Meteor mobile app to keep track of health data for diabetes patients. **[PRE-ALPHA]**
 
 
-## DISCLAIMER !
+## :warning: DISCLAIMER
 
 
-### Experimental Pre-Alpha
+**Experimental Pre-Alpha**
 
 This app is in pre-alpha status. It's an experiment and should be treated as such. If you feel like joining the experiment - feel free!
 
 
-### About the Management of Health Data
+**About the Management of Health Data**
 
 Health data is sensitive and important! As a diabetes patient, you should keep track of your values OUTSIDE OF THIS APP, as neither the data's safety nor its integrity can be guaranteed in experimental pre-alpha mode. Neither owner nor any contributors are responsible for any actions anybody takes regarding his or her health.
 
 
-### Exemption from Liability
+**Exemption from Liability**
 
 This app is heavily under development. Neither owner nor contributors are responsible for actions an individual chooses to take with the code published. This includes (but is not limited to) any effects the app will have on the device it is installed on, choices based on the data entered into the app or any other action.
 
@@ -73,10 +73,10 @@ For more specific technical details, please see [technical documentation](TECHNI
 
 ### build
 
-This has only been tested for android!
+:information_source: This has only been tested for android!
 
 
-To build the app:
+**To build the app:**
 
 `meteor build /tmp/diadia/ --server diadia.meteor.com:80 --debug`
 
