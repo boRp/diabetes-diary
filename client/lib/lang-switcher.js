@@ -1,13 +1,10 @@
 languageSwitcher = {
-  'session': {
-    'key' : 'language'
-  },
-
+  
   'getLanguage': function () {
-    return Session.get(languageSwitcher.session.key);
+    return settingsHelper.get(CONST.SETTINGS.LANGUAGE) || "en";
   },
   'setLanguage': function (lang) {
-    Session.set(languageSwitcher.session.key, lang);
+    settingsHelper.set(CONST.SETTINGS.LANGUAGE, lang);
 
     TAPi18n.setLanguage(lang)
       .done(function () {

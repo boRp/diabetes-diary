@@ -17,5 +17,11 @@ CONST = {
         UNIT: {
             IE: 'IE'
         }
-    }
+    },
+
+
+  SETTINGS: {
+    LANGUAGE: 'language'
+  }
 };
+
